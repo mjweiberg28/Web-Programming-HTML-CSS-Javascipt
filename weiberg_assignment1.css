@@ -1,0 +1,54 @@
+﻿body {
+    background-color: black;
+    color: yellow;
+    font-size: 1.75em;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: darkgray;
+    z-index: 1;
+}
+
+#joker-text {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.absolute-text {
+    background-color: yellow;
+    color: black;
+    position: absolute;
+    top: 12%;
+    left: 27%;
+}
+
+.fixed-text {
+    background-color: red;
+    color: white;
+    position: fixed;
+    bottom: 20%;
+    right: 20%;
+}
+
+a {
+    color: lightgray;
+}
+
+#color-change {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+
+#divider-change {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    transition: 1s;
+}
